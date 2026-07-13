@@ -23,7 +23,7 @@ class View(ft.UserControl):
         self._btnCreaGrafo = ft.ElevatedButton(text="Crea grafo",
                                                on_click=self._controller.handleCreaGrafo)
         self._btnStampaInfo = ft.ElevatedButton(text="Stampa Info",
-                                                on_click=self._controller.handleStampaInfo)
+                                                on_click=self._controller.handleStampaInfo, disabled=True)
 
 
         row1 = ft.Row([ft.Container(self._btnCreaGrafo, width=250),
@@ -35,7 +35,7 @@ class View(ft.UserControl):
         self._ddAlbum = ft.Dropdown(label="Album")
         self._txtInN = ft.TextField(label="Numero di brani")
         self._btnSelezione = ft.ElevatedButton(text="Trova selezione album",
-                                              on_click=self._controller.handleSelezione)
+                                              on_click=self._controller.handleSelezione, disabled=True)
 
         row2 = ft.Row([ft.Container(self._ddAlbum, width=125),
                        ft.Container(self._txtInN, width=125),
