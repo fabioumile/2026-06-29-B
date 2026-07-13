@@ -1,6 +1,6 @@
 """
 RICORSIONE:
-#TIPOLOGIA 1: (ArtsMia/exFlight)
+#TIPOLOGIA 1:  (ArtsMia/exFlight)
 -Il testo dice esplicitamente "lunghezza pari a LUN", "usando al massimo t tratte", oppure impone un nodo finale obbligatorio ("percorso da A a B").
 -Pattern Logico: Poiché sai esattamente quando fermarti (quando arrivi alla lunghezza LUN o al nodo target),
 -la verifica dell'ottimo (if costo > optCost) va fatta SOLO dentro la condizione di terminazione.

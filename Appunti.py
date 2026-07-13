@@ -414,7 +414,7 @@ g.add_node(ft.Text("Pippo"))
 #for n in g: iteri tra l'intero grafo
 #for nbr in g[n] iteri tra tutti i vicini di n-
 
-#dbConnect già scritto
+#dbConnect già scritto 
 def get_connection() -> mysql.connector.connection:
     try:
         cnx = mysql.connector.connect(

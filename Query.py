@@ -637,7 +637,7 @@ FROM names n, director_mapping dm, genre g, ratings r
 WHERE n.id = dm.name_id AND dm.movie_id = g.movie_id AND g.genre = %s AND r.movie_id = dm.movie_id
 GROUP BY n.id, n.name ORDER BY num_film DESC, media DESC LIMIT %s
 
-#Top N attori per numero di film con rating sopra soglia
+#Top N attori per numero di film con rating sopra  soglia
 SELECT n.name, COUNT(DISTINCT rm.movie_id) AS numFilm
 FROM names n, role_mapping rm, ratings r
 WHERE n.id = rm.name_id

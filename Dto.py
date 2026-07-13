@@ -8,7 +8,7 @@ class Arco:
     peso: int
 
 # DTO
-# fa da datacontine, al liv  del model
+#fa da datacontine, al liv  del model
 # sul database clicco sulla tabella , shift freccia in giu copio e incollo
 from dataclasses import dataclass
 from datetime import datetime
