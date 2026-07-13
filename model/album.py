@@ -6,6 +6,7 @@ class Album:
     Title: str
     ArtistId: int
     listaBrani: int
+    #.
 
     def __eq__(self, other):
         return self.AlbumId == other.AlbumId
